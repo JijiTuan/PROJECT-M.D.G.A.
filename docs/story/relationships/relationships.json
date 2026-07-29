@@ -1,0 +1,182 @@
+{
+  "schema_version": "0.1.0",
+  "graph_status": "preliminary",
+  "nodes": [
+    {
+      "id": "players",
+      "label": "玩家社区",
+      "type": "community",
+      "status": "confirmed"
+    },
+    {
+      "id": "zhu_guang_hui",
+      "label": "逐光会",
+      "type": "organization",
+      "status": "confirmed"
+    },
+    {
+      "id": "jiang_wan",
+      "label": "江晚",
+      "type": "character",
+      "status": "confirmed"
+    },
+    {
+      "id": "yuchi_nan",
+      "label": "尉迟南",
+      "type": "character",
+      "status": "confirmed"
+    },
+    {
+      "id": "bai_zhi",
+      "label": "白芷",
+      "type": "character",
+      "status": "confirmed"
+    },
+    {
+      "id": "zhao_yueqiang",
+      "label": "赵越强",
+      "type": "character",
+      "status": "confirmed"
+    },
+    {
+      "id": "zhao_xiao",
+      "label": "赵晓",
+      "type": "character",
+      "status": "confirmed"
+    },
+    {
+      "id": "zhao_qian",
+      "label": "赵倩",
+      "type": "character",
+      "status": "confirmed"
+    },
+    {
+      "id": "epsilon",
+      "label": "伊普西隆",
+      "type": "phenomenon",
+      "status": "confirmed_partial"
+    },
+    {
+      "id": "rebirth_system",
+      "label": "重生系统",
+      "type": "system",
+      "status": "confirmed"
+    },
+    {
+      "id": "pollution",
+      "label": "污染",
+      "type": "phenomenon",
+      "status": "confirmed"
+    },
+    {
+      "id": "tonglan_observatory",
+      "label": "通兰天文台",
+      "type": "location",
+      "status": "confirmed"
+    },
+    {
+      "id": "unknown_signal",
+      "label": "未知信号 / 回应",
+      "type": "phenomenon",
+      "status": "draft"
+    }
+  ],
+  "edges": [
+    {
+      "from": "jiang_wan",
+      "to": "zhao_yueqiang",
+      "relation": "配偶",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "jiang_wan",
+      "to": "zhao_xiao",
+      "relation": "母子",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "jiang_wan",
+      "to": "zhao_qian",
+      "relation": "母女",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "epsilon",
+      "to": "zhao_yueqiang",
+      "relation": "感染并导致死亡",
+      "certainty": "confirmed_in_character_background"
+    },
+    {
+      "from": "epsilon",
+      "to": "zhao_xiao",
+      "relation": "感染并导致死亡",
+      "certainty": "confirmed_in_character_background"
+    },
+    {
+      "from": "epsilon",
+      "to": "zhao_qian",
+      "relation": "感染并导致死亡",
+      "certainty": "confirmed_in_character_background"
+    },
+    {
+      "from": "jiang_wan",
+      "to": "epsilon",
+      "relation": "研究",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "yuchi_nan",
+      "to": "tonglan_observatory",
+      "relation": "任职并返回修复",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "yuchi_nan",
+      "to": "unknown_signal",
+      "relation": "尝试发送并等待回应",
+      "certainty": "draft_from_background"
+    },
+    {
+      "from": "pollution",
+      "to": "rebirth_system",
+      "relation": "导致异常",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "zhu_guang_hui",
+      "to": "bai_zhi",
+      "relation": "以传播未经确认信息为由带走或使其失踪",
+      "certainty": "confirmed_mainline_direction"
+    },
+    {
+      "from": "jiang_wan",
+      "to": "bai_zhi",
+      "relation": "医学与伦理对照关系",
+      "certainty": "draft"
+    },
+    {
+      "from": "jiang_wan",
+      "to": "zhu_guang_hui",
+      "relation": "体系内部或合作科研人员候选",
+      "certainty": "draft"
+    },
+    {
+      "from": "players",
+      "to": "jiang_wan",
+      "relation": "证据、信任与医疗决策影响其立场",
+      "certainty": "draft"
+    },
+    {
+      "from": "players",
+      "to": "yuchi_nan",
+      "relation": "可支持、限制、接管或阻止广播计划",
+      "certainty": "draft"
+    },
+    {
+      "from": "players",
+      "to": "zhu_guang_hui",
+      "relation": "讨论、行动与选择影响组织内部走向",
+      "certainty": "confirmed_design_goal"
+    }
+  ]
+}

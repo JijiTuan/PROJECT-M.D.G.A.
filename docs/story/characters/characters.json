@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.1.0",
+  "document_status": "draft",
+  "characters": [
+    {
+      "id": "jiang_wan",
+      "name": "江晚",
+      "source_status": "provided",
+      "gender": "女",
+      "birthday": "06-18",
+      "age": 34,
+      "blood_type": "AB",
+      "marital_status": "已婚",
+      "family": [
+        {
+          "id": "zhao_yueqiang",
+          "name": "赵越强",
+          "relation": "丈夫",
+          "status": "已在丧尸危机中感染病毒离世"
+        },
+        {
+          "id": "zhao_xiao",
+          "name": "赵晓",
+          "relation": "儿子",
+          "status": "已在丧尸危机中感染病毒离世"
+        },
+        {
+          "id": "zhao_qian",
+          "name": "赵倩",
+          "relation": "女儿",
+          "status": "已在丧尸危机中感染病毒离世"
+        }
+      ],
+      "education": "斯诺那医科大学硕士学位，微生物学专业硕士",
+      "occupation": [
+        "科学院微生物研究院特别研究员（微生物神经控制科）",
+        "斯诺那医科大学附属医院微生物神经控制科副科长（挂名）"
+      ],
+      "research_focus": "生物神经控制病毒",
+      "associated_terms": [
+        "伊普西隆"
+      ],
+      "candidate_story_role": "感染主线核心 NPC；逐光会体系内部或合作体系中的风险控制派",
+      "open_questions": [
+        "伊普西隆与梦屿污染、重生异常及感染体系的关系",
+        "江晚与逐光会的正式关系",
+        "江晚与白芷的既有关系",
+        "江晚是否掌握稳定感染者长期病例"
+      ]
+    },
+    {
+      "id": "yuchi_nan",
+      "name": "尉迟南",
+      "source_status": "provided",
+      "gender": "男",
+      "birthday": "03-13",
+      "age": 27,
+      "blood_type": "A",
+      "marital_status": "未婚",
+      "education": "通兰大学天体物理专业（学位层级未注明）",
+      "occupation": [
+        "通兰天文台宇宙学研究员"
+      ],
+      "research_focus": [
+        "宇宙学",
+        "外部信号",
+        "利用恒星放大并扩大信号传播范围的模型"
+      ],
+      "candidate_story_role": "跨阶段的天文与外部信号支线 NPC；后期与主线设施产生交叉",
+      "open_questions": [
+        "被回收物体的准确轨道与来源",
+        "其携带地球信息的原因",
+        "外部回应是否真实",
+        "尉迟南最终广播计划的风险和玩家控制方式"
+      ]
+    },
+    {
+      "id": "bai_zhi",
+      "name": "白芷",
+      "source_status": "baseline_partial",
+      "gender": null,
+      "candidate_story_role": "发现部分感染者长期稳定并因此被逐光会带走或失踪的医生 NPC",
+      "open_questions": [
+        "完整身份档案",
+        "与江晚的关系",
+        "失踪事件的具体过程"
+      ]
+    }
+  ]
+}
