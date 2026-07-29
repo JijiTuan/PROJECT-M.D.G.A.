@@ -1,11 +1,17 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "graph_status": "preliminary",
   "nodes": [
     {
       "id": "players",
       "label": "玩家社区",
       "type": "community",
+      "status": "confirmed"
+    },
+    {
+      "id": "dream_isle",
+      "label": "梦屿",
+      "type": "region_and_society",
       "status": "confirmed"
     },
     {
@@ -51,6 +57,18 @@
       "status": "confirmed"
     },
     {
+      "id": "yuchi_jing",
+      "label": "尉迟敬",
+      "type": "character",
+      "status": "confirmed_background"
+    },
+    {
+      "id": "lin_he",
+      "label": "林禾",
+      "type": "character",
+      "status": "confirmed_background"
+    },
+    {
       "id": "epsilon",
       "label": "伊普西隆",
       "type": "phenomenon",
@@ -77,8 +95,20 @@
     {
       "id": "tonglan_observatory",
       "label": "通兰天文台",
-      "type": "location",
+      "type": "location_and_institution",
       "status": "confirmed"
+    },
+    {
+      "id": "dream_isle_space_network",
+      "label": "梦屿空间环境与远距离通信合作网络",
+      "type": "research_network",
+      "status": "confirmed_character_background"
+    },
+    {
+      "id": "unknown_artificial_object",
+      "label": "未知人造天体",
+      "type": "object",
+      "status": "confirmed_partial"
     },
     {
       "id": "unknown_signal",
@@ -132,15 +162,63 @@
     },
     {
       "from": "yuchi_nan",
-      "to": "tonglan_observatory",
-      "relation": "任职并返回修复",
+      "to": "yuchi_jing",
+      "relation": "父子",
       "certainty": "confirmed"
     },
     {
       "from": "yuchi_nan",
+      "to": "lin_he",
+      "relation": "母子",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "yuchi_nan",
+      "to": "tonglan_observatory",
+      "relation": "任职并在危机后返回修复",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "tonglan_observatory",
+      "to": "dream_isle_space_network",
+      "relation": "危机前的重要外部观测节点",
+      "certainty": "confirmed_character_background"
+    },
+    {
+      "from": "dream_isle_space_network",
+      "to": "dream_isle",
+      "relation": "为空间天气、气象、通信、能源预警和重生节点时间同步提供支持",
+      "certainty": "confirmed_character_background"
+    },
+    {
+      "from": "yuchi_nan",
+      "to": "dream_isle_space_network",
+      "relation": "参与数据清理、异常轨道分析和远距离通信模型，并曾任访问研究员",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "yuchi_nan",
+      "to": "dream_isle",
+      "relation": "曾在此生活和工作，认同公共科研理念并原计划正式迁入",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "yuchi_nan",
+      "to": "unknown_artificial_object",
+      "relation": "参与早期轨道观测与后续数据分析，未亲自参与回收",
+      "certainty": "confirmed_character_background"
+    },
+    {
+      "from": "unknown_artificial_object",
       "to": "unknown_signal",
-      "relation": "尝试发送并等待回应",
+      "relation": "其记录的坐标与时间标记促成后续信号发送和回应争议",
       "certainty": "draft_from_background"
+    },
+    {
+      "from": "yuchi_nan",
+      "to": "unknown_signal",
+      "relation": "坚持继续验证，但承认其可能是回应、回波、故障或地面干扰",
+      "certainty": "confirmed_character_direction"
     },
     {
       "from": "pollution",
@@ -187,7 +265,7 @@
     {
       "from": "players",
       "to": "yuchi_nan",
-      "relation": "可支持、限制、接管或阻止广播计划",
+      "relation": "未来可影响他如何处理广播风险；具体互动尚未设计",
       "certainty": "draft"
     },
     {

@@ -22,6 +22,8 @@
 
 - `confirmed`：已确认。
 - `confirmed_in_character_background`：人物原始背景已确认，但尚未完全整合进全局世界观。
+- `confirmed_character_background`：本轮人物背景讨论中已确认。
+- `confirmed_character_direction`：人物核心方向已确认，具体演出待设计。
 - `confirmed_mainline_direction`：主线方向已确认，具体演出待设计。
 - `confirmed_design_goal`：设计目标已确认。
 - `draft`：讨论草案。
@@ -34,6 +36,7 @@
 ```mermaid
 flowchart LR
     Players[玩家社区]
+    Dream[梦屿]
     Light[逐光会]
     Jiang[江晚]
     Yuchi[尉迟南]
@@ -42,10 +45,14 @@ flowchart LR
     Husband[赵越强]
     Son[赵晓]
     Daughter[赵倩]
+    Father[尉迟敬]
+    Mother[林禾]
     Epsilon[伊普西隆]
     Pollution[污染]
     Rebirth[重生系统]
     Observatory[通兰天文台]
+    SpaceNet[梦屿空间环境与远距离通信合作网络]
+    Object[未知人造天体]
     Signal[未知信号 / 回应]
 
     Jiang ---|配偶| Husband
@@ -64,12 +71,20 @@ flowchart LR
     Light -->|修改报告、限制权限并最终带走或隔离| Baizhi
     Jiang -.合作或体系内部·草案.-> Light
 
-    Yuchi -->|任职与返回修复| Observatory
-    Yuchi -.广播与等待回应·草案.-> Signal
+    Yuchi ---|父子| Father
+    Yuchi ---|母子| Mother
+    Yuchi -->|任职并返回修复| Observatory
+    Observatory -->|外部观测节点| SpaceNet
+    SpaceNet -->|公共观测与通信支持| Dream
+    Yuchi -->|参与合作并曾任访问研究员| SpaceNet
+    Yuchi -->|曾生活、工作并计划迁入| Dream
+    Yuchi -->|参与观测与数据分析| Object
+    Object -.坐标与时间标记.-> Signal
+    Yuchi -.继续验证，结论未知.-> Signal
 
     Players -.对感染者的实际态度影响信任.-> Baizhi
     Players -.证据与医疗决策.-> Jiang
-    Players -.支持、限制或阻止广播.-> Yuchi
+    Players -.未来影响广播风险处理·草案.-> Yuchi
     Players -.行动与讨论影响.-> Light
 ```
 
@@ -86,13 +101,21 @@ flowchart LR
 - **白芷 → 长期稳定感染状态**：白芷通过长期随访提出新的临床分类，但没有宣称所有感染者都安全。
 - **玩家 → 白芷**：玩家如何对待具体感染者、是否完整提交证据、是否把患者当作工具，会影响白芷的信任与后续选择。
 
+## 尉迟南当前确认关系
+
+- **尉迟南 → 尉迟敬 / 林禾**：父母塑造了他对“研究是否应服务普通人”以及“能否听见身边的人”的长期思考；两人在危机后的去向尚未确定。
+- **尉迟南 → 通兰天文台**：他在此任职、参与异常轨道观测，并在危机后返回修复设备与保存资料。
+- **通兰天文台 → 梦屿空间环境与远距离通信合作网络**：天文台在危机前是梦屿公共科研网络的重要外部观测节点。
+- **尉迟南 → 梦屿**：他曾作为访问研究员在梦屿生活和工作，认同其公共科研理念，并曾准备长期迁入。
+- **尉迟南 → 未知人造天体**：他参与早期轨道观测与后续数据分析，但没有亲自参与回收。
+- **尉迟南 → 未知信号**：他坚持继续验证，却不把信号预设为外星回应；其真实来源仍保持不确定。
+
 ## 后续正式关系图建议
 
 正式关系图可以同时输出两种视图：
 
 1. **作者视图**
    包含隐藏关系、人物秘密、真实立场和未来变化。
-
 2. **玩家阶段视图**
    只显示玩家在特定阶段理论上可能知道的关系，避免剧透。
 
