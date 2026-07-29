@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "graph_status": "preliminary",
   "nodes": [
     {
@@ -67,6 +67,12 @@
       "label": "污染",
       "type": "phenomenon",
       "status": "confirmed"
+    },
+    {
+      "id": "stable_infection_state",
+      "label": "长期稳定感染状态",
+      "type": "medical_classification",
+      "status": "confirmed_character_direction"
     },
     {
       "id": "tonglan_observatory",
@@ -143,22 +149,34 @@
       "certainty": "confirmed"
     },
     {
-      "from": "zhu_guang_hui",
-      "to": "bai_zhi",
-      "relation": "以传播未经确认信息为由带走或使其失踪",
-      "certainty": "confirmed_mainline_direction"
+      "from": "bai_zhi",
+      "to": "stable_infection_state",
+      "relation": "通过长期随访提出新的临床分类",
+      "certainty": "confirmed"
     },
     {
       "from": "jiang_wan",
       "to": "bai_zhi",
-      "relation": "医学与伦理对照关系",
-      "certainty": "draft"
+      "relation": "专业培训与病例评审上的半导师；双方因公开时机、样本充分性和公共风险产生分歧",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "zhu_guang_hui",
+      "to": "bai_zhi",
+      "relation": "逐步要求修改报告、限制病例权限、调离项目并最终使其被带走、隔离或失踪",
+      "certainty": "confirmed_mainline_direction"
     },
     {
       "from": "jiang_wan",
       "to": "zhu_guang_hui",
       "relation": "体系内部或合作科研人员候选",
       "certainty": "draft"
+    },
+    {
+      "from": "players",
+      "to": "bai_zhi",
+      "relation": "玩家对感染者的实际态度、证据完整性与医疗选择影响其信任",
+      "certainty": "confirmed_design_goal"
     },
     {
       "from": "players",
