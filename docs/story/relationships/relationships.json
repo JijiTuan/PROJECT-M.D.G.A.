@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "graph_status": "preliminary",
   "nodes": [
     {
@@ -157,7 +157,7 @@
     {
       "from": "jiang_wan",
       "to": "bai_zhi",
-      "relation": "专业培训与病例评审上的半导师；双方因公开时机、样本充分性和公共风险产生分歧",
+      "relation": "正式师生；江晚负责白芷的专业训练、病例评审与研究方法指导，双方因公开时机、样本充分性和公共风险产生分歧",
       "certainty": "confirmed"
     },
     {

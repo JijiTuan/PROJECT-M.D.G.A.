@@ -1,50 +1,77 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "document_status": "draft",
   "characters": [
     {
       "id": "jiang_wan",
       "name": "江晚",
-      "source_status": "provided",
+      "source_status": "discussion_confirmed",
       "gender": "女",
       "birthday": "06-18",
       "age": 34,
       "blood_type": "AB",
-      "marital_status": "已婚",
+      "marital_status": "已婚，丧偶",
       "family": [
         {
           "id": "zhao_yueqiang",
           "name": "赵越强",
           "relation": "丈夫",
-          "status": "已在丧尸危机中感染病毒离世"
+          "status": "已在伊普西隆危机中感染离世"
         },
         {
           "id": "zhao_xiao",
           "name": "赵晓",
           "relation": "儿子",
-          "status": "已在丧尸危机中感染病毒离世"
+          "status": "已在伊普西隆危机中感染离世"
         },
         {
           "id": "zhao_qian",
           "name": "赵倩",
           "relation": "女儿",
-          "status": "已在丧尸危机中感染病毒离世"
+          "status": "已在伊普西隆危机中感染离世"
         }
       ],
-      "education": "斯诺那医科大学硕士学位，微生物学专业硕士",
+      "education": "斯诺那医科大学微生物学专业硕士",
       "occupation": [
         "科学院微生物研究院特别研究员（微生物神经控制科）",
         "斯诺那医科大学附属医院微生物神经控制科副科长（挂名）"
       ],
-      "research_focus": "生物神经控制病毒",
+      "research_focus": [
+        "生物神经控制",
+        "神经感染",
+        "伊普西隆相关异常"
+      ],
+      "candidate_story_role": "感染医学主线核心人物；以长期证据、风险控制和医学边界为核心的谨慎研究者",
+      "core_belief": "希望必须经得起验证，但危险存在不代表感染者已经失去作为人的资格",
+      "core_desire": "建立能够区分丧尸化、不稳定感染、稳定感染和可治疗感染的医学标准",
+      "core_fear": "再次因为相信未经充分验证的希望，让他人承担无法挽回的代价",
+      "strengths": [
+        "专业严谨",
+        "重视长期记录",
+        "能够识别样本偏差和过度推论",
+        "不会为了立场隐瞒明显反例",
+        "愿意承担自己判断造成的后果"
+      ],
+      "weaknesses": [
+        "过度追求确定性",
+        "容易把情绪视为判断的敌人",
+        "在高风险问题上倾向替他人决定",
+        "对失控和未经验证的变化反应强烈"
+      ],
+      "relationships": [
+        {
+          "character_id": "bai_zhi",
+          "relation": "正式师生；江晚负责白芷的专业训练、病例评审与研究方法指导，双方因公开时机、样本充分性和公共风险产生分歧"
+        }
+      ],
       "associated_terms": [
         "伊普西隆"
       ],
-      "candidate_story_role": "感染主线核心 NPC；逐光会体系内部或合作体系中的风险控制派",
       "open_questions": [
         "伊普西隆与梦屿污染、重生异常及感染体系的关系",
-        "江晚与逐光会的正式关系",
-        "江晚是否掌握稳定感染者长期病例"
+        "江晚与逐光会的正式合作关系",
+        "江晚是否掌握被回收的稳定感染者长期病例",
+        "她对白芷后续遭遇会采取何种态度"
       ]
     },
     {
@@ -70,7 +97,7 @@
       "affiliation": "危机后纳入逐光会医疗管理体系",
       "family_background": [
         "父亲为公共交通线路维护员",
-        "母亲曾在社区学校教授兺础科学"
+        "母亲曾在社区学校教授基础科学"
       ],
       "candidate_story_role": "发现长期稳定感染状态、推动感染分类争议并使玩家开始质疑逐光会政策的年轻医生 NPC",
       "core_belief": "制度应当因真实证据和具体的人而修正自身错误",
@@ -91,7 +118,7 @@
       "relationships": [
         {
           "character_id": "jiang_wan",
-          "relation": "专业培训与病例评审上的半导师；双方因公开时机、样本充分性和公共风险产生分歧"
+          "relation": "正式师生；江晚负责其专业训练、病例评审与研究方法指导，双方因公开时机、样本充分性和公共风险产生分歧"
         },
         {
           "organization_id": "zhu_guang_hui",
