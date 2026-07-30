@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.5.0",
   "graph_status": "preliminary",
   "nodes": [
     {
@@ -12,6 +12,18 @@
       "id": "dream_isle",
       "label": "梦屿",
       "type": "region_and_society",
+      "status": "confirmed"
+    },
+    {
+      "id": "external_belt",
+      "label": "外缘带",
+      "type": "region_and_communities",
+      "status": "confirmed"
+    },
+    {
+      "id": "expansion_plan",
+      "label": "扩岸计划",
+      "type": "public_policy_and_project",
       "status": "confirmed"
     },
     {
@@ -35,6 +47,12 @@
     {
       "id": "bai_zhi",
       "label": "白芷",
+      "type": "character",
+      "status": "confirmed"
+    },
+    {
+      "id": "liang_shuo",
+      "label": "梁朔",
       "type": "character",
       "status": "confirmed"
     },
@@ -79,6 +97,24 @@
       "label": "重生系统",
       "type": "system",
       "status": "confirmed"
+    },
+    {
+      "id": "outer_rebirth_relay",
+      "label": "外缘能源与重生数据中继",
+      "type": "infrastructure",
+      "status": "confirmed_character_background"
+    },
+    {
+      "id": "emergency_cell_repair_device",
+      "label": "应急细胞修复设备",
+      "type": "medical_device",
+      "status": "confirmed_character_background"
+    },
+    {
+      "id": "temporary_protection_status",
+      "label": "临时保护身份",
+      "type": "emergency_status",
+      "status": "confirmed_character_background"
     },
     {
       "id": "pollution",
@@ -251,6 +287,66 @@
       "certainty": "draft"
     },
     {
+      "from": "liang_shuo",
+      "to": "external_belt",
+      "relation": "出生、成长、工作并参与当地社区生活",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "expansion_plan",
+      "to": "external_belt",
+      "relation": "逐步提供教育、医疗、能源、居民登记和公共保障接入",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "liang_shuo",
+      "to": "expansion_plan",
+      "relation": "危机前完成大部分预备登记，接近获得正式居民身份和完整生命模板",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "liang_shuo",
+      "to": "outer_rebirth_relay",
+      "relation": "担任维护员，并在危机中协助梦屿节点完成独立运行切换",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "outer_rebirth_relay",
+      "to": "rebirth_system",
+      "relation": "为外缘与梦屿节点提供能源、数据同步和切换支持",
+      "certainty": "confirmed_character_background"
+    },
+    {
+      "from": "emergency_cell_repair_device",
+      "to": "liang_shuo",
+      "relation": "在重伤后使其生还，同时造成异常修复和生命数据不匹配",
+      "certainty": "confirmed_character_background"
+    },
+    {
+      "from": "zhu_guang_hui",
+      "to": "temporary_protection_status",
+      "relation": "危机初期用于保护身份暂时无法完整核验的幸存者",
+      "certainty": "confirmed_character_background"
+    },
+    {
+      "from": "temporary_protection_status",
+      "to": "liang_shuo",
+      "relation": "危机初期获得临时住所、医疗、物资、身份恢复调查和基本安全保障",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "liang_shuo",
+      "to": "dream_isle",
+      "relation": "真心认同其公共保障理念，并原本即将通过扩岸计划正式进入",
+      "certainty": "confirmed"
+    },
+    {
+      "from": "zhu_guang_hui",
+      "to": "liang_shuo",
+      "relation": "玩家进入梦屿时仍真诚接收、救治并协助恢复身份；后续关系由剧情和组织路线决定",
+      "certainty": "confirmed_character_direction"
+    },
+    {
       "from": "players",
       "to": "bai_zhi",
       "relation": "玩家对感染者的实际态度、证据完整性与医疗选择影响其信任",
@@ -266,6 +362,12 @@
       "from": "players",
       "to": "yuchi_nan",
       "relation": "未来可影响他如何处理广播风险；具体互动尚未设计",
+      "certainty": "draft"
+    },
+    {
+      "from": "players",
+      "to": "liang_shuo",
+      "relation": "未来可通过资源分配、记录保存、身份政策和实际尊重影响其信任与选择；具体分支待设计",
       "certainty": "draft"
     },
     {
