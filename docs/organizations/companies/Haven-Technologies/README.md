@@ -1,33 +1,52 @@
-# Haven Technologies Corporation
+# 海雾科技集团
 
-COMPANY ID:
-HT-001
+档案编号：HT-001
 
-CLASSIFICATION:
-CORPORATE ARCHIVE
+企业分类：旧世界智能基础设施企业
 
-FIELD:
-Artificial Intelligence / Infrastructure / Energy Systems
+状态：部分恢复
 
-STATUS:
-PARTIALLY RECOVERED
+所属领域：
+- 人工智能
+- 城市自动化
+- 能源系统
+- 基础设施管理
 
-## Overview
+---
+
+## 企业简介
 
 海雾科技集团是旧世界领先的智能基础设施企业。
 
-公司参与城市自动化、能源管理、人工智能调度以及生命保障系统建设。
+公司主要负责城市自动化、能源管理、人工智能调度以及生命保障系统建设。
 
-## Founder
+其技术曾广泛应用于大型城市和特殊公共设施。
 
-Pending Recovery
+## 创始人
 
-## Major Systems
+资料待恢复。
 
-- Haven AI
-- LifeCore Management Platform
-- Urban Emergency Network
+## 核心系统
 
-## Relationship With Dreamingfish
+### 海雾 AI
 
-Haven Technologies supplied part of the intelligent infrastructure used by Dreamingfish public systems.
+城市级人工智能管理系统。
+
+负责：
+- 能源调度
+- 城市维护
+- 灾害预测
+
+### LifeCore 生命核心平台
+
+用于生命信息管理与重生系统辅助。
+
+### 城市应急网络
+
+负责灾害预警与公共通信。
+
+## 与梦屿关系
+
+海雾科技为梦屿公共系统提供部分智能基础设施支持。
+
+灾难后，其部分服务器节点仍保持运行状态。
