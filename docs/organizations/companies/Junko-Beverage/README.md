@@ -1,31 +1,53 @@
-# Junko Beverage Corporation
+# 均克饮品集团
 
-COMPANY ID:
-JKB-001
+档案编号：JKB-001
 
-CLASSIFICATION:
-CORPORATE ARCHIVE
+企业分类：旧世界消费饮品企业
 
-FIELD:
-Beverage Manufacturing / Consumer Products
+状态：未知
 
-STATUS:
-UNKNOWN
+所属领域：
+- 饮品制造
+- 功能饮料
+- 消费产品
 
-## Overview
+---
 
-均克饮品集团是旧世界大型饮料企业。
+## 企业简介
+
+均克饮品集团是旧世界大型饮品企业之一。
 
 公司主要生产日常饮品、功能饮料以及长期储存饮品。
 
-其产品曾遍布城市便利店、公共设施和应急储备中心。
+其产品曾遍布城市便利店、公共设施以及应急储备中心。
 
-## Products
+## 核心产品
 
-- Junko Pure
-- Junko Energy
-- Junko Recovery Drink
+### 均克纯净水（Junko Pure）
 
-## Incident Note
+类别：饮用水产品
 
-灾难发生后，部分饮品库存仍存在于废弃商业设施中。
+用途：
+普通居民饮用与公共储备。
+
+---
+
+### 均克能量饮（Junko Energy）
+
+类别：功能饮料
+
+用途：
+提供短时间能量补充。
+
+---
+
+### 均克恢复饮（Junko Recovery Drink）
+
+类别：恢复型饮品
+
+用途：
+用于灾害救援环境下的营养补充。
+
+## 事件记录
+
+灾难发生后，部分饮品库存仍存在于废弃商业设施与应急仓库中。
