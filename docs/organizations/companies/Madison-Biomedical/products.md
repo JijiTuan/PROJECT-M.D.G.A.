@@ -1,36 +1,46 @@
-# Madison Biomedical Products Archive
+# 麦迪森生物产品档案
+
+档案编号：MDB-PRODUCT
 
 ## M-Life™
 
-CATEGORY:
-Regenerative Medicine
-
-DESCRIPTION:
-组织修复辅助药剂。
+类别：再生医疗辅助药剂
 
 用途：
 - 创伤恢复
-- 组织再生
+- 组织修复
 - 医疗恢复辅助
+
+备注：
+
+灾难前为高端医疗机构使用产品，灾难后部分库存仍存在于废弃医疗设施中。
+
+---
 
 ## NeuroSync™
 
-CATEGORY:
-Neural Stabilization
-
-DESCRIPTION:
-神经稳定技术产品。
+类别：神经稳定技术产品
 
 用途：
 - 神经损伤治疗
-- 生命模板同步研究辅助
+- 神经连接稳定
+- 生命模板同步辅助研究
+
+备注：
+
+该技术后来成为梦屿重生系统研究的重要参考资料。
+
+---
 
 ## M-Cure™
 
-CATEGORY:
-General Medicine
+类别：综合医疗药物系列
 
-DESCRIPTION:
-广谱医疗药物系列。
+用途：
+- 常见感染治疗
+- 创伤辅助治疗
+- 医疗恢复
 
-灾难后仍在部分医疗设施中发现库存。
+备注：
+
+灾难发生后，部分医院仍保存该系列药品库存。
