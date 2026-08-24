@@ -1,38 +1,43 @@
-# Madison Biomedical Corporation
+# 麦迪森生物科技集团
 
-COMPANY ID:
-MDB-001
+档案编号：MDB-001
 
-CLASSIFICATION:
-CORPORATE ARCHIVE
+企业分类：旧世界生物医疗企业
 
-FIELD:
-Pharmaceutical / Regenerative Medicine
+状态：部分恢复
 
-STATUS:
-PARTIALLY RECOVERED
+所属领域：
+- 制药
+- 再生医学
+- 生命模板研究
 
-## Overview
+---
+
+## 企业简介
 
 麦迪森生物科技集团是旧世界最具影响力的生物医学企业之一。
 
-公司早期专注于创伤治疗、器官修复与神经恢复技术，后逐渐参与生命模板与重生技术研究。
+公司最初专注于创伤治疗、器官修复以及神经恢复技术，随后逐渐进入生命模板与重生技术研究领域。
 
-其研究成果成为梦屿生命保障体系的重要基础之一。
+其研究成果成为梦屿生命保障体系的重要技术基础之一。
 
-## Corporate Philosophy
+## 企业理念
 
-"Death is not an ending.
-It is a problem waiting to be solved."
+“死亡不是终点。
+它只是一个等待解决的问题。”
 
-## Founder
+## 创始人
 
-Dr. Adrian Madison
+阿德里安·麦迪森博士（Dr. Adrian Madison）
 
-医学科学家，生命修复领域先驱。
+身份：医学科学家
 
-## Relationship With Dreamingfish
+贡献：生命修复技术先驱、生命模板理论早期提出者。
 
-Madison Biomedical 曾参与梦屿生命模板技术合作项目。
+## 与梦屿关系
 
-灾难发生后，大量研究资料状态未知。
+麦迪森生物曾参与梦屿生命模板技术合作项目。
+
+灾难发生后，大量研究资料与实验记录状态未知。
+
+部分研究设施目前被列入高风险区域档案。
