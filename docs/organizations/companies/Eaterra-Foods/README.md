@@ -1,35 +1,38 @@
-# Eaterra Foods Corporation
+# 益特食品集团
 
-COMPANY ID:
-ETF-001
+档案编号：ETF-001
 
-CLASSIFICATION:
-CORPORATE ARCHIVE
+企业分类：旧世界食品工业企业
 
-FIELD:
-Food Production / Nutritional Technology
+状态：未知
 
-STATUS:
-UNKNOWN
+所属领域：
+- 食品生产
+- 营养技术
+- 应急食品供应
 
-## Overview
+---
+
+## 企业简介
 
 益特食品集团是旧世界最大的综合食品企业之一。
 
 公司负责生产日常食品、长期储存食品以及灾害保障营养产品。
 
-其产品曾广泛供应城市居民、救援机构和外缘社区。
+其产品曾广泛供应城市居民、救援机构以及外缘社区。
 
-## Founder
+## 创始人
 
-Pending Recovery
+资料待恢复。
 
-## Products
+## 核心产品
 
-- EAT+ Nutrient Bar
-- E-Life Meal
-- Emergency Nutrition Series
+- EAT+ 营养棒
+- E-Life 生命餐
+- 应急营养系列
 
-## Incident Note
+## 事件记录
 
-大量益特食品仓储设施在灾难后成为幸存者的重要物资来源。
+灾难发生后，大量益特食品仓储设施成为幸存者寻找补给的重要地点。
+
+部分仓库位置仍未完成调查。
